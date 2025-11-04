@@ -1,0 +1,50 @@
+# Core dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+python-multipart==0.0.6
+
+# LangChain y LLMs
+langchain==0.1.0
+langchain-community==0.0.10
+langchain-core==0.1.10
+langchain-openai==0.0.2
+openai>=1.6.1,<2.0.0
+
+# Modelos locales y fine-tuning
+transformers>=4.40.0
+accelerate>=0.27.0
+peft>=0.8.0
+bitsandbytes>=0.41.0
+torch>=2.0.0
+datasets>=2.14.0
+
+# Base de datos vectorial
+chromadb==0.4.17
+sentence-transformers>=2.7.0
+
+# Procesamiento de documentos
+PyPDF2==3.0.1
+markdown==3.5.1
+
+# Interfaz web
+gradio==4.7.1
+
+# Utilidades
+python-dotenv==1.0.0
+requests==2.31.0
+numpy>=1.26.0
+pandas>=2.0.0
+
+# Kaggle (opcional, para descargar datos)
+kaggle>=1.5.0
+
+# Desarrollo y testing
+pytest==7.4.3
+black==23.11.0
+flake8==6.1.0
+
+# Logging y monitoreo
+python-json-logger==2.0.7
+
+
