@@ -2,7 +2,7 @@
 
 Sistema completo de Retrieval-Augmented Generation (RAG) que procesa documentación técnica, la indexa en una base de datos vectorial, y proporciona respuestas precisas a consultas utilizando LLMs. Implementado con FastAPI, Gradio, ChromaDB y OpenAI GPT-4.
 
-## 📋 Tabla de Contenidos
+## Tabla de Contenidos
 
 1. [Características](#-características)
 2. [Arquitectura](#-arquitectura)
@@ -15,18 +15,18 @@ Sistema completo de Retrieval-Augmented Generation (RAG) que procesa documentaci
 9. [Uso del Sistema](#-uso-del-sistema)
 10. [Solución de Problemas](#-solución-de-problemas)
 
-## 🎯 Características
+## Características
 
-- ✅ **Procesamiento de Documentos**: Soporta PDF, TXT, MD con chunking inteligente
-- ✅ **Búsqueda Semántica**: Embeddings con Sentence-Transformers y ChromaDB
-- ✅ **Generación de Respuestas**: Integración con OpenAI GPT-4-turbo
-- ✅ **Interfaz Web**: Chat interactivo con Gradio
-- ✅ **API REST**: Endpoints completos con documentación Swagger
-- ✅ **Métricas y Evaluación**: Sistema de tracking y evaluación de rendimiento
-- ✅ **Docker**: Contenerización completa con Docker Compose
-- ✅ **Configuración Segura**: Manejo de secrets y variables de entorno
+- **Procesamiento de Documentos**: Soporta PDF, TXT, MD con chunking inteligente
+- **Búsqueda Semántica**: Embeddings con Sentence-Transformers y ChromaDB
+- **Generación de Respuestas**: Integración con OpenAI GPT-4-turbo
+- **Interfaz Web**: Chat interactivo con Gradio
+- **API REST**: Endpoints completos con documentación Swagger
+- **Métricas y Evaluación**: Sistema de tracking y evaluación de rendimiento
+- **Docker**: Contenerización completa con Docker Compose
+- **Configuración Segura**: Manejo de secrets y variables de entorno
 
-## 🏗️ Arquitectura
+## Arquitectura
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -79,7 +79,7 @@ Sistema completo de Retrieval-Augmented Generation (RAG) que procesa documentaci
 - **Interfaz Web**: Gradio para interacción con usuarios
 - **MetricsCollector**: Sistema de métricas y evaluación
 
-## 📋 Requisitos Previos
+## Requisitos Previos
 
 ### Software Requerido
 
@@ -98,7 +98,7 @@ Sistema completo de Retrieval-Augmented Generation (RAG) que procesa documentaci
   - Requiere cuenta en OpenAI
   - Costo asociado por uso (ver precios en OpenAI)
 
-## 🚀 Instalación Paso a Paso
+## Instalación Paso a Paso
 
 ### Opción 1: Instalación Local (Recomendado para Desarrollo)
 
@@ -244,7 +244,7 @@ docker-compose ps
 docker-compose down
 ```
 
-## 📡 Documentación de APIs
+## Documentación de APIs
 
 ### Base URL
 
@@ -532,7 +532,7 @@ curl -X POST "http://localhost:8000/query" \
 curl http://localhost:8000/metrics
 ```
 
-## 🔧 Stack Tecnológico
+## Stack Tecnológico
 
 ### Backend
 
@@ -717,7 +717,7 @@ services/
 - **Type-safe**: Type hints para todas las variables
 - **Seguridad**: Manejo seguro de secrets
 
-## 📊 Estrategias de Evaluación
+## Estrategias de Evaluación
 
 ### 1. Métricas Implementadas
 
@@ -881,7 +881,7 @@ Para un sistema RAG con:
 
 Para más detalles, ver [EVALUACION_RAG.md](EVALUACION_RAG.md)
 
-## 💻 Uso del Sistema
+## Uso del Sistema
 
 ### Flujo de Trabajo Típico
 
@@ -910,7 +910,7 @@ Para más detalles, ver [EVALUACION_RAG.md](EVALUACION_RAG.md)
 3. Haz preguntas en el chat
 4. El sistema responderá con información de los documentos
 
-## 🐛 Solución de Problemas
+## Solución de Problemas
 
 ### Error: "OPENAI_API_KEY no está configurada"
 
@@ -962,7 +962,7 @@ which python  # Linux/Mac
 where python  # Windows
 ```
 
-## 📝 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 RAG-system-openai/
@@ -1006,16 +1006,16 @@ RAG-system-openai/
 └── INICIAR_SISTEMA.md           # Guía de inicio
 ```
 
-## 🔒 Seguridad
+## Seguridad
 
-- ✅ Archivo `.env` en `.gitignore` (no se sube al repositorio)
-- ✅ Secrets nunca se exponen en logs
-- ✅ Validación de configuración al inicio
-- ✅ Manejo seguro de variables de entorno
+- Archivo `.env` en `.gitignore` (no se sube al repositorio)
+- Secrets nunca se exponen en logs
+- Validación de configuración al inicio
+- Manejo seguro de variables de entorno
 
 Ver [CONFIGURACION.md](CONFIGURACION.md) para más detalles.
 
-## 📚 Documentación Adicional
+## Documentación Adicional
 
 - **[API_DOCUMENTATION.md](API_DOCUMENTATION.md)**: Documentación completa de todos los endpoints
 - **[CONFIGURACION.md](CONFIGURACION.md)**: Configuración detallada de secrets y variables
@@ -1023,7 +1023,7 @@ Ver [CONFIGURACION.md](CONFIGURACION.md) para más detalles.
 - **[INICIAR_SISTEMA.md](INICIAR_SISTEMA.md)**: Guía paso a paso para iniciar
 - **[EVALUACION_REQUERIMIENTOS.md](EVALUACION_REQUERIMIENTOS.md)**: Checklist de requerimientos
 
-## 🚧 Próximas Mejoras
+## Próximas Mejoras
 
 - [ ] Autenticación de usuarios
 - [ ] Soporte para más formatos (DOCX, HTML)
@@ -1034,9 +1034,6 @@ Ver [CONFIGURACION.md](CONFIGURACION.md) para más detalles.
 - [ ] API de streaming para respuestas
 - [ ] Filtrado avanzado por metadata
 
-## 📄 Licencia
-
-Este proyecto es una prueba técnica para evaluación.
 
 ---
 
