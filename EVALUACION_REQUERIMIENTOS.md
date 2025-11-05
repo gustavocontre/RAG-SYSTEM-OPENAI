@@ -93,7 +93,6 @@
 
 - [x] **Documentación técnica**
   - `CONFIGURACION.md` - Configuración de secrets
-  - `INICIO_RAPIDO.md` - Guía rápida
   - `INICIAR_SISTEMA.md` - Instrucciones de inicio
   - `API_DOCUMENTATION.md` - Documentación completa de APIs
 
